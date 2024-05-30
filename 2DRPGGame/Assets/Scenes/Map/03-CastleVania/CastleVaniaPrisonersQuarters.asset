@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9008144273449596233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b296e62c79ccc0d4eb87806afd64a229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  From: {fileID: -3831255122146385528}
+  To: {fileID: 6938625568339408782}
+  RoomTemplates: []
+--- !u!114 &-3831255122146385528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ae1dbb92c351fa449568eb8f36f25c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Position: {x: 112, y: 144}
+  Type: 0
+  Outside: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8400baee4cafd34091c865089a167b2, type: 3}
+  m_Name: CastleVaniaPrisonersQuarters
+  m_EditorClassIdentifier: 
+  Connections:
+  - {fileID: -9008144273449596233}
+  CorridorIndividualRoomTemplates: []
+  CorridorRoomTemplateSets: []
+  DefaultIndividualRoomTemplates: []
+  DefaultRoomTemplateSets: []
+  Rooms:
+  - {fileID: -3831255122146385528}
+  - {fileID: 6938625568339408782}
+  EditorData:
+    PanOffset: {x: 0, y: 0}
+    Zoom: 1
+  RoomType: CastleVaniaRoom
+  ConnectionType: CastleVaniaConnection
+  IsDirected: 0
+--- !u!114 &6938625568339408782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ae1dbb92c351fa449568eb8f36f25c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Position: {x: 256, y: 144}
+  Type: 1
+  Outside: 0

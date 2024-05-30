@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - ParticleContainer
+  - Interactive
+  - PlayerSpawn
+  - WeaponSpawn
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Background
+  - Water
+  - UI
+  - StaticEnvironment
+  - LevelMap
+  - Damageable
+  - Dead
+  - Player
+  - Weapon
+  - Particle
+  - Item
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3751136493
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Between
+    uniqueID: 1867093569
+    locked: 0
+  - name: Platforms
+    uniqueID: 172387947
+    locked: 0
+  - name: Foreground
+    uniqueID: 2758780153
+    locked: 0
+  - name: Item
+    uniqueID: 108994249
+    locked: 0
+  - name: Enemy
+    uniqueID: 3641956725
+    locked: 0
+  - name: Player
+    uniqueID: 1864296849
+    locked: 0
+  - name: VisibleParticles
+    uniqueID: 2504700029
+    locked: 0
+  - name: UI
+    uniqueID: 1435392605
+    locked: 0
+  - name: 10
+    uniqueID: 3671186245
+    locked: 0
+  - name: 11
+    uniqueID: 2923470835
+    locked: 0
+  - name: 12
+    uniqueID: 1989469541
+    locked: 0
+  - name: 13
+    uniqueID: 3182748381
+    locked: 0
+  - name: 14
+    uniqueID: 3917498769
+    locked: 0

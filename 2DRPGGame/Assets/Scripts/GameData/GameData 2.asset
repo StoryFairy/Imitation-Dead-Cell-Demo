@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e0748baf6656b041b54af1826bcfba2, type: 3}
+  m_Name: GameData 2
+  m_EditorClassIdentifier: 
+  a: 0
+  Archive: {fileID: 0}
+  _saveFolderName: MMGameData/
+  _saveFileName: mmData2.settings
+  GameData:
+    isNew: 1
+    FinalTime: 
+    MaxHealth: 0

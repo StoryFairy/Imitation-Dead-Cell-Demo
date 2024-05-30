@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad74be46f777e8488bcf7423a3fe922, type: 3}
+  m_Name: Hammer 1
+  m_EditorClassIdentifier: 
+  weaponType: 2
+  <Icon>k__BackingField: {fileID: 21300000, guid: 674a06fc6be820743aae0e78213c55e7, type: 3}
+  <Name>k__BackingField: "\u52A8\u529B\u9524"
+  <Description>k__BackingField: "\u653B\u51FB\u6B21\u6570\u8D8A\u591A\u653B\u51FB\u901F\u5EA6\u8D8A\u5FEB"
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: f72da6474cb6cba4ebeff2718e828c01, type: 2}
+  <NumberOfAttacks>k__BackingField: 4
+  <criticalHitRate>k__BackingField: 0
+  <ComponentData>k__BackingField:
+  - rid: 5450224575046221847
+  - rid: 5450224575046221845
+  - rid: 5450224575046221842
+  - rid: 5450224575046221843
+  - rid: 5450224575046221844
+  - rid: 2426240818231902211
+  skillScriptName: Hummer_01_Skill
+  references:
+    version: 2
+    RefIds:
+    - rid: 2426240818231902211
+      type: {class: MusicData, ns: , asm: Assembly-CSharp}
+      data:
+        name: MusicData
+        attackData:
+        - name: Attack 1
+          SoundClip: {fileID: 8300000, guid: 7dae2dfb36a8f244aae9d038717e00c2, type: 3}
+        - name: Attack 2
+          SoundClip: {fileID: 8300000, guid: 3ab1f3cd9c4566245b8c6800e7ccfa03, type: 3}
+        - name: Attack 3
+          SoundClip: {fileID: 8300000, guid: 5fa9328f4c1a15a459b404211fb8f43e, type: 3}
+        - name: Attack 4
+          SoundClip: {fileID: 8300000, guid: d364e90fc71a29747b759b14abbaf9cc, type: 3}
+    - rid: 5450224575046221842
+      type: {class: ActionHitBoxData, ns: , asm: Assembly-CSharp}
+      data:
+        name: ActionHitBoxData
+        attackData:
+        - name: Attack 1
+          Debug: 0
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: -0.5
+            y: -1.75
+            width: 3.1
+            height: 2.8
+        - name: Attack 2
+          Debug: 0
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: -0.5
+            y: -1.75
+            width: 3.1
+            height: 2.8
+        - name: Attack 3
+          Debug: 0
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: -0.5
+            y: -1.75
+            width: 3.1
+            height: 2.8
+        - name: Attack 4
+          Debug: 0
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: -0.5
+            y: -1.75
+            width: 3.1
+            height: 2.8
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 256
+    - rid: 5450224575046221843
+      type: {class: DamageData, ns: , asm: Assembly-CSharp}
+      data:
+        name: DamageData
+        attackData:
+        - name: Attack 1
+          <Amount>k__BackingField: 15
+        - name: Attack 2
+          <Amount>k__BackingField: 15
+        - name: Attack 3
+          <Amount>k__BackingField: 15
+        - name: Attack 4
+          <Amount>k__BackingField: 15
+    - rid: 5450224575046221844
+      type: {class: KnockBackData, ns: , asm: Assembly-CSharp}
+      data:
+        name: KnockBackData
+        attackData:
+        - name: Attack 1
+          <Angle>k__BackingField: {x: 1, y: 1}
+          <Strength>k__BackingField: 15
+        - name: Attack 2
+          <Angle>k__BackingField: {x: 1, y: 1}
+          <Strength>k__BackingField: 15
+        - name: Attack 3
+          <Angle>k__BackingField: {x: 1, y: 1}
+          <Strength>k__BackingField: 15
+        - name: Attack 4
+          <Angle>k__BackingField: {x: 1, y: 1}
+          <Strength>k__BackingField: 15
+    - rid: 5450224575046221845
+      type: {class: MovementData, ns: , asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 1, y: 1}
+          <Velocity>k__BackingField: 5
+        - name: Attack 2
+          <Direction>k__BackingField: {x: 1, y: 1}
+          <Velocity>k__BackingField: 5
+        - name: Attack 3
+          <Direction>k__BackingField: {x: 1, y: 1}
+          <Velocity>k__BackingField: 5
+        - name: Attack 4
+          <Direction>k__BackingField: {x: 1, y: 1}
+          <Velocity>k__BackingField: 5
+    - rid: 5450224575046221847
+      type: {class: WeaponSpriteData, ns: , asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        attackData:
+        - name: Attack 1
+          <Sprites>k__BackingField:
+          - {fileID: 1126133378, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: -1448117696, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: 1224856502, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: -59024348, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: 1324494177, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: 864514673, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: -1182251060, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: -525860637, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+        - name: Attack 2
+          <Sprites>k__BackingField:
+          - {fileID: -1641914143, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: -1439457250, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: 1041982049, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: -1634297814, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: 1072632877, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: 2006763891, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: 277651050, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+        - name: Attack 3
+          <Sprites>k__BackingField:
+          - {fileID: -1738593697, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: -1631052948, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: -1165162173, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: -536962209, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: -70462024, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: 2120525776, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: 1012327016, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+        - name: Attack 4
+          <Sprites>k__BackingField:
+          - {fileID: 124147607, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: -1522008636, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: 1047859191, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: -1390613596, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: -1443338818, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: 1638870930, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: 1823736192, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: -359987674, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: -124004870, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: 242731795, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: -153461763, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: 1069462268, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+          - {fileID: -2117609845, guid: f408547b06d63d84e844c3fea5472b56, type: 3}
+        <attackPause>k__BackingField: 5
+        <attackShakeTime>k__BackingField: 0.2
+        <attackShakeStrength>k__BackingField: 5

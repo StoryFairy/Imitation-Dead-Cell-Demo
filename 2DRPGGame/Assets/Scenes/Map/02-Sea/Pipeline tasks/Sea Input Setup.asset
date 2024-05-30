@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd2cdc6faeb1c5e409f777176e2d16a8, type: 3}
+  m_Name: Sea Input Setup
+  m_EditorClassIdentifier: 
+  LevelGraph: {fileID: 11400000, guid: 564a979009225384792be068a915ebea, type: 2}
+  RoomTemplates:
+    DefaultRoomTemplates:
+    - {fileID: 648426559490059825, guid: 8f5d73aaa6a7e124ba49eaed6f7c04ac, type: 3}
+    - {fileID: 2802523923762187219, guid: 8e0f7e1b96a40204fbcd593edb298436, type: 3}
+    - {fileID: 2189219552360916421, guid: 60b01fafcb3ac0440a3d46d413757a82, type: 3}
+    - {fileID: 1944372512946568228, guid: 9b7cdd0087b847c42a526bb658ec5e2f, type: 3}
+    - {fileID: 4140700720307346027, guid: 44049ce6aac8ead4e9a98003637583e4, type: 3}
+    ShopRoomTemplates:
+    - {fileID: 1817739559876681515, guid: 519b08ec6a0a4ef43a8dadd618cd05af, type: 3}
+    TreasureRoomTemplates:
+    - {fileID: 1817739559876681515, guid: 3717f869fa91e664aad57b5e3e915e25, type: 3}
+    EntranceRoomTemplates:
+    - {fileID: 8093408015206753515, guid: 845e179cf9d849f44830eb5a355e93be, type: 3}
+    ExitRoomTemplates:
+    - {fileID: 8189861737835552189, guid: a41ce6ada090b194087f3444ad65137e, type: 3}
+    CorridorRoomTemplates:
+    - {fileID: 969881410929451159, guid: b05fb0c01e870234db809248a175f782, type: 3}
+    - {fileID: 5626930912151792799, guid: 172deb21357f3ec408e9c0a8b922b71c, type: 3}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b5cfcfeaeec4a45885b914f4160807, type: 3}
+  m_Name: Forest Post Processing
+  m_EditorClassIdentifier: 
+  player: {fileID: 9091286295940500593, guid: 0a9c3d4037d7e424bb4865b44c68c18d, type: 3}
+  SpawnEnemies: 1
+  Enemies:
+  - {fileID: 1646905376083696846, guid: d77687362ac4d9c40a51eb3f1002af59, type: 3}
+  - {fileID: 3444415196153825335, guid: 439ec06e73b99c74588dcf24682e98d7, type: 3}
+  - {fileID: 7347522468932623682, guid: e1652c23028f3764eb71fa0b9a0bb0aa, type: 3}
+  - {fileID: 1460344895143420820, guid: 89d1fada3e3be2345897d67cf3578a77, type: 3}
+  weapon: {fileID: 6695729862771724107, guid: 953aaecf92962fd4bbac4b824819ff64, type: 3}
